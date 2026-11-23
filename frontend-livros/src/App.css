@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 { color: #333; }
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:disabled { background: #94a3b8; cursor: wait; }
+
+.mensagem { margin-top: 16px; }
+.erro { color: #b91c1c; font-weight: bold; }
+
+.livro {
+  margin-top: 16px;
+  padding: 12px;
+  border-left: 4px solid #2563eb;
+  background: #f8fafc;
+}
+
+.livro p { margin: 4px 0; }
